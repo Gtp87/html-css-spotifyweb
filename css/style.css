@@ -29,8 +29,22 @@ html {
     margin-bottom: 0.3em;
 }
 
+.mrg-btm-07 {
+    margin-bottom: 0.7em;
+}
+
 .mrg-top-1 {
     margin-top: 1em;
+}
+
+.mrg-top-auto {
+    margin-top: auto;
+}
+
+/* font size */
+.font-size-08 {
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 
