@@ -1,3 +1,4 @@
+/* General */
 * {
     margin: 0;
     padding: 0;
@@ -15,13 +16,31 @@ html {
     display: flex;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
+/* margin e padding */
+.mrg-l-03 {
+    margin-left: 0.3em;
+}
+
+.mrg-btm-03 {
+    margin-bottom: 0.3em;
+}
+
+.mrg-top-1 {
+    margin-top: 1em;
+}
+
+
 ul li {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #d2d2d2;
 }
 
 .container {
@@ -55,6 +74,14 @@ svg {
 .navbar-header {
     margin-top: 1em;
     margin-left: 1em;
+}
+
+.navbar-header ul li:hover a {
+    color:white;
+}
+
+.navbar-header ul li:hover svg {
+    filter: invert(1) brightness(100);
 }
 
 .upgrade {
