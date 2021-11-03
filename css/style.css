@@ -8,6 +8,7 @@ html {
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 .flex {
@@ -15,16 +16,20 @@ html {
 }
 
 
+.container {
+    height: calc(100vh - 70px);
+}
+
 header {
-    width: 20%;
-    background-color: red;
-    height: 100vh;
+    width: 10%;
+    background-color: black;
+    /* height: 100vh; */
 }
 
 main {
-    width: 80%;
-    background-color: blue;
-    height: 100vh;
+    width: 90%;
+    background-color: #141922;
+    /* height: 100vh; */
 }
 
 .img {
@@ -32,7 +37,7 @@ main {
 }
 
 .container-logo {
-    width: 50%;
+    width: 90%;
     padding-top: 1em;
     padding-left: 1em;
 }
@@ -41,9 +46,24 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    width: 80%;
+    width: 90%;
     height: 70px;
     background-color: rgba(0,0,0,0.5);
     justify-content: flex-end;
-    
+    align-items: center;
+    padding-right: 2em;
+}
+
+.upgrade-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 0.5em 2em;
+}
+
+.now-playing {
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
 }
