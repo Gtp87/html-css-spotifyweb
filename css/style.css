@@ -10,3 +10,19 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    width: 20%;
+    background-color: red;
+    height: 100vh;
+}
+
+main {
+    width: 80%;
+    background-color: blue;
+    height: 100vh;
+}
