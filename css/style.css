@@ -94,6 +94,7 @@ svg {
 .navbar-header {
     margin-top: 1em;
     margin-left: 1em;
+    height: calc(100vh - 70px);
 }
 
 .navbar-header ul li:hover a {
