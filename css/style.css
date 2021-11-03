@@ -46,6 +46,7 @@ main {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 999;
     width: 90%;
     height: 70px;
     background-color: rgba(0,0,0,0.5);
@@ -59,7 +60,12 @@ main {
     color: white;
     border: 1px solid white;
     border-radius: 30px;
-    padding: 0.5em 2em;
+    padding: 0.5em 3em;
+}
+
+.upgrade-btn:hover {
+    padding: 1em 4em;
+    cursor: pointer;
 }
 
 .now-playing {
