@@ -15,6 +15,14 @@ html {
     display: flex;
 }
 
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 
 .container {
     height: calc(100vh - 70px);
@@ -23,23 +31,30 @@ html {
 header {
     width: 10%;
     background-color: black;
-    /* height: 100vh; */
 }
 
 main {
     width: 90%;
     background-color: #141922;
-    /* height: 100vh; */
 }
 
 .img {
     width: 100%;
 }
 
+svg {
+    width: 15%;
+}
+
 .container-logo {
     width: 90%;
     padding-top: 1em;
     padding-left: 1em;
+}
+
+.navbar-header {
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 .upgrade {
