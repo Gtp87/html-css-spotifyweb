@@ -20,6 +20,10 @@ html {
     flex-direction: column;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 /* margin e padding */
 .mrg-l-03 {
     margin-left: 0.3em;
