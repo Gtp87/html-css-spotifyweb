@@ -219,10 +219,18 @@ hr {
   width: 100%;
 }
 
-.for-you {
+.for-you,
+ .popular{
   width: 30%;
 }
 
+#einaudi {
+  width: 98%;
+}
+
+.popular ul li .container-song img{
+  border-radius: 50%;
+}
 
 
 footer {
