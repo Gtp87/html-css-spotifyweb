@@ -169,6 +169,15 @@ hr {
   margin-left: 0.8em;
 }
 
+.navbar-main-menu {
+  justify-content: center;
+}
+
+.navbar-main-menu li {
+  padding: 0 1em;
+}
+
+
 footer {
   width: 100%;
   height: 90px;
