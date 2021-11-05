@@ -118,14 +118,14 @@ a {
     width: 100%;
 }
 
-svg {
-    width: 10%;
-}
-
 .container-logo {
     width: 70%;
     padding-top: 1em;
     padding-left: 1em;
+}
+
+.logo-small {
+  display: none;
 }
 
 ul {
@@ -521,4 +521,60 @@ footer .far {
   .favs {
     flex-direction: column;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .main-content .recently-played ul li,
+  .main-content .for-you ul li,
+  .main-content .popular ul li {
+    min-width: 25vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .upgrade {
+    width: calc(100vw - 50px);
+    margin-left: 50px;
+  }
+
+  .sidebar {
+    width: 50px;
+  }
+
+  .container-logo {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+    width: 75%;
+    margin-left: 0.4em;
+    z-index: 999;  
+  }
+
+  .main-content {
+    width: calc(100vw - 50px);
+  }
+
+  .main-content .recently-played ul li,
+  .main-content .for-you ul li,
+  .main-content .popular ul li {
+    min-width: 40vw;
+  }
+
+  .home .home-menu li a h5,
+  .playlist,
+  .install-app,
+  .user h3 {
+    display: none;
+  }
+
+  .install i {
+    margin-left: 0.8em;
+  }
+
+  .user img {
+    margin-left: 0.3em;
+  }
+
 }
