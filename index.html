@@ -22,7 +22,7 @@
     <div class="container">
         <main class="clearfix">
             <!-- sidebar -->
-            <nav class="sidebar">
+            <nav class="sidebar float">
                 <div class="sidebar-top">
                     <div class="container-header">
                         <div class="container-logo">
@@ -98,7 +98,7 @@
                 <div class="sidebar-bottom">
                     <div class="download-app">
                         <div class="install font-size-06">
-                            <i class="far fa-arrow-alt-circle-down"></i> Installa app
+                            <a href="#"><i class="far fa-arrow-alt-circle-down"></i> Installa app</a>
                         </div>
                         <hr>
                         <div class="user flex">
@@ -111,7 +111,7 @@
             <!-- /sidebar -->
 
             <!-- call to action -->
-            <section class="main-content">
+            <section class="main-content float">
                 <div class="upgrade">
                     <button class="upgrade-btn">EFFETTUA L'UPGRADE</button>
                 </div>
@@ -191,8 +191,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="for-you">
-                        <h2>Creato per John Doe</h2>
+                    <div class="for-you pd-top-3">
+                        <h2 class="pd-btm-1">Creato per John Doe</h2>
                         <p class="font-size-06 pd-btm-2">Pi&uacute; ascolti, pi&uacute; saranno accurati i suggerimenti
                         </p>
                         <ul class="flex align-space-btw">
@@ -210,8 +210,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="popular">
-                        <h2>Artisti pi&uacute; popolari</h2>
+                    <div class="popular pd-top-3">
+                        <h2 class="pd-btm-1">Artisti pi&uacute; popolari</h2>
                         <p class="font-size-06 pd-btm-2">Pi&uacute; ascolti, pi&uacute; saranno accurati i suggerimenti
                         </p>
                         <ul class="flex align-space-btw">
@@ -236,7 +236,46 @@
                 <!-- /main content -->
             </section>
         </main>
-        <footer></footer>
+        <footer class="clearfix">
+            <div class="footer-sx float flex">
+                <div class="track flex">
+                    <img src="img/player_left.jpg" alt="">
+                </div>
+                <div>
+                    <h4><a href="#">Sinister</a></h4>
+                    <p><a href="#">Nome brano</a></p>
+                </div>
+                <div class="favs flex">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-folder"></i>
+                </div>
+            </div>
+            <div class="footer-cn float">
+                <div class="player flex">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="timer flex">
+                    <div class="flex">0:25</div>
+                    <div class="flex bar-line"><span class="bar-line-light"></span></div>
+                    <div class="flex">4:35</div>
+                </div>
+            </div>
+            <div class="footer-dx float flex">
+                <div class="volume flex">
+                    <i class="fas fa-list"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <div class="bar-volume flex">
+                    <span class="bar-volume-light"></span>
+                    <span class="pointer"></span>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
