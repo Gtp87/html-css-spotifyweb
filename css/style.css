@@ -218,11 +218,6 @@ hr {
   cursor: pointer;
 }
 
-.border-btm {
-  border-bottom: 2px solid rgb(154, 226, 45);
-}
-
-
 /* album */
 .container-album {
   width: 100%;
@@ -467,4 +462,28 @@ footer .far {
 
 .mrg-top-1 {
   margin-top: 1em;
+}
+
+
+/* breakpoint mediaquery 600px 700px e 1100px */
+
+@media screen and (max-width: 1100px) {
+
+  .main-content .recently-played ul li,
+  .main-content .for-you ul li,
+  .main-content .popular ul li {
+    width: calc(100% / 4);
+
+  }
+
+  .navbar-main-content ul,
+  .main-content .recently-played ul,
+  .main-content .for-you ul,
+  .main-content .popular ul {
+    flex-wrap: wrap;
+  }
+
+  .favs {
+    flex-direction: column;
+  }
 }
