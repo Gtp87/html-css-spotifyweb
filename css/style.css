@@ -240,9 +240,39 @@ hr {
 
 }
 
+.thumb {
+  position: relative;
+}
+
+.hover-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4em;
+  cursor: pointer;
+  display: none;
+}
+
+
+
 .container-song img {
   width: 100%;
 }
+
+.row .song:hover {
+  cursor: pointer;
+}
+
+.row .song:hover div i {
+  display: block;
+}
+
+.row .song:hover div img {
+  opacity: 0.4;
+}
+
 
 .for-you,
  .popular{
