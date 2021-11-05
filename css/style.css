@@ -167,6 +167,14 @@ ul {
   width: 100%;
 }
 
+.create:hover a {
+  color: white;
+}
+
+.height-playlist {
+  max-height: 35vh;
+}
+
 .download-app {
   margin-top: 1em;
   margin-left: 0.5em;
@@ -213,9 +221,14 @@ hr {
   padding: 1em;
 }
 
+.container-album ul li {
+  width: 70%;
+}
+
 .container-album h2,
 .container-album h3 {
   color: white;
+  line-height: 1em;
 }
 
 .container-song {
