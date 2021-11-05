@@ -270,7 +270,7 @@ footer {
 }
 
 .footer-cn {
-  width: 70%;
+  width: 67%;
   height: 100%;
 }
 
@@ -360,12 +360,66 @@ footer .far {
 }
 
 .bar-line-light {
-    height: 4px;
-    width: 20%;
-    background-color: white;
-    border-radius: 10px;
+  height: 4px;
+  width: 20%;
+  background-color: white;
+  border-radius: 10px;
 }
 
+.footer-cn .timer .bar-line:hover .bar-line-light {
+  height: 5px;
+  background-color:yellowgreen;
+  cursor: pointer;
+}
+
+.footer-cn .timer .bar-line:hover .pointer {
+  width: 8px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume {
+  align-items: center;
+}
+
+.footer-dx .volume i {
+  margin: 0 0.7em;
+}
+
+.bar-volume {
+  height: 5px;
+  width: 8vw;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.bar-volume-light {
+  height: 5px;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.volume .bar-volume:hover .bar-volume-light {
+  background-color: yellowgreen;
+  height: 5px;
+  cursor: pointer;
+}
+
+.volume .bar-volume:hover .pointer {
+  width: 8px;
+  height: 7px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.footer-dx .volume i:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 .font-size-3{
   font-size: 3em;
