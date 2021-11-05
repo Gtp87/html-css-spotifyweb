@@ -265,14 +265,18 @@ footer {
 }
 
 .footer-cn {
-  width: 67%;
+  width: calc( 100% - 460px);
   height: 100%;
 }
 
 .footer-sx,
 .footer-dx {
-  width: 15%;
+  width: 230px;
   height: 100%;
+}
+
+.footer-dx {
+  padding-right: 2em;
 }
 
 .footer-sx {
@@ -377,6 +381,7 @@ footer .far {
 
 .volume {
   align-items: center;
+  padding: 1em;
 }
 
 .footer-dx .volume i {
@@ -385,7 +390,7 @@ footer .far {
 
 .bar-volume {
   height: 5px;
-  width: 8vw;
+  width: 5vw;
   background-color: grey;
   border-radius: 10px;
 }
