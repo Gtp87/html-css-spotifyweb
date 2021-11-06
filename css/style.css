@@ -141,6 +141,10 @@ ul {
   padding-bottom: 1em;
 }
 
+.sidebar-hide {
+  display: none;
+}
+
 .sidebar-top ul li a svg{
     width: 12%;
     vertical-align: top;
@@ -296,7 +300,7 @@ footer {
 }
 
 .footer-cn {
-  width: calc( 100% - 460px);
+  width: calc(100% - 460px);
   height: 100%;
 }
 
@@ -412,7 +416,7 @@ footer .far {
 
 .volume {
   align-items: center;
-  padding: 1em;
+  margin-left: 1em;
 }
 
 .footer-dx .volume i {
@@ -550,6 +554,7 @@ footer .far {
     display: block;
     width: 75%;
     margin-left: 0.4em;
+    margin-top: 00.4em;
     z-index: 999;  
   }
 
@@ -563,12 +568,28 @@ footer .far {
     min-width: 40vw;
   }
 
-  .home .home-menu li a h5,
+  .home,
   .playlist,
   .install-app,
   .user h3 {
     display: none;
   }
+
+  .sidebar-hide {
+    display: block;
+  }
+
+  .sidebar-hide ul li a img {
+    width: 70%;
+    filter: invert(0.5);
+    margin: 0.7em 0.5em 0.5em 0.5em;
+  }
+
+  .sidebar-hide ul li:hover a img {
+    filter: invert(0);
+  }
+
+
 
   .install i {
     margin-left: 0.8em;
