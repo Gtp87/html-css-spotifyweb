@@ -300,7 +300,7 @@ footer {
 }
 
 .footer-cn {
-  width: calc(100% - 460px);
+  width: calc((100% - 460px) - 2em);
   height: 100%;
 }
 
@@ -311,6 +311,7 @@ footer {
 }
 
 .footer-dx {
+  align-items: center;
   padding-right: 2em;
 }
 
@@ -416,7 +417,7 @@ footer .far {
 
 .volume {
   align-items: center;
-  margin-left: 1em;
+  margin-left: 3.5em;
 }
 
 .footer-dx .volume i {
@@ -566,6 +567,7 @@ footer .far {
   .main-content .for-you ul li,
   .main-content .popular ul li {
     min-width: 40vw;
+    width: calc(100% / 2);
   }
 
   .home,
