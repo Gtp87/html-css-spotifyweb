@@ -219,6 +219,7 @@ hr {
 
 .navbar-main-menu {
   justify-content: center;
+  margin: 1em 0;
 }
 
 .navbar-main-menu li {
@@ -230,10 +231,19 @@ hr {
   cursor: pointer;
 }
 
+.navbar-main-menu li:hover a::after {
+  content: "";
+  display: block;
+  background-color: chartreuse;
+  height: 1px;
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* album */
 .container-album {
   width: 100%;
-  padding: 1em;
+  padding: 2em 1em;
 }
 
 .recently-played ul li {
