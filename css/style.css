@@ -74,6 +74,8 @@ main {
 .sidebar-bottom {
   width: 100%;
   height: 80px;
+  background-color: black;
+  z-index: 999;
 }
 .main-content {
   float: left;
@@ -185,7 +187,7 @@ ul {
 }
 
 .height-playlist {
-  max-height: 35vh;
+  max-height: 31vh;
 }
 
 .download-app {
@@ -271,6 +273,10 @@ hr {
   width: 100%;
 }
 
+.row {
+  width: 100%;
+}
+
 .row .song:hover {
   cursor: pointer;
 }
@@ -283,11 +289,11 @@ hr {
   opacity: 0.4;
 }
 
-
-.for-you,
- .popular{
-  width: 30%;
+.song {
+  width: calc((100% / 6) - 2em);
+  text-align: center;
 }
+
 
 #einaudi {
   width: 98%;
@@ -305,22 +311,31 @@ footer {
 }
 
 .footer-cn {
-  width: 60%;
+  width: calc(100% - 500px);
   height: 100%;
+  flex-direction: column;
 }
 
 .footer-sx,
 .footer-dx {
   width: 250px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-dx {
-  
-  margin-right: 3em;
+  margin-right: 2em;
 }
 
 .footer-sx {
   align-items: center;
+}
+
+.footer-cn .player,
+.footer-cn .timer{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .track {
@@ -537,8 +552,13 @@ footer .far {
   .main-content .recently-played ul li,
   .main-content .for-you ul li,
   .main-content .popular ul li {
-    min-width: 25vw;
+   width: calc(100% / 2);
   }
+}
+
+.for-you .row,
+.popular .row {
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -595,9 +615,7 @@ footer .far {
     filter: invert(0);
   }
 
-  /* .footer-cn {
-    max-width: 50%;
-  } */
+ 
 
   .install i {
     margin-left: 0.8em;
